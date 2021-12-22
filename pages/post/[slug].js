@@ -16,7 +16,7 @@ const PostDetails = ({ post }) => {
     <>
       <Head>
         <title>{post.title}</title>
-        <meta name="og:description" content={`${post.excerpt} by ${post.author}`} />
+        <meta name="og:description" content={`${post.excerpt} by ${post.author.name}`} />
         <meta name="og:image" content={post.featuredImage.url} />
         <meta name="og:title" content={post.title} />
         <meta name="og:url" content={`https://csvoyager.vercel.app/post/${post.slug}`} />
