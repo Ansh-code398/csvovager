@@ -22,6 +22,8 @@ export const getPosts = async () => {
               excerpt
               featuredImage{
                 url
+                size
+                height
               }
               categories{
                 name
