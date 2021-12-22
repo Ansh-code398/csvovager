@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader } from '../../components';
-import { getPosts, getPostDetails } from '../../services';
-import { AdjacentPosts } from '../../sections';
+import { PostDetail, PostWidget, Loader } from '../../components/index.js';
+import { getPosts, getPostDetails } from '../../services/index.js';
+import { AdjacentPosts } from '../../sections/index.js';
 import Head from 'next/head';
-import HTMLFlipBook from 'react-pageflip';
 
 const PostDetails = ({ post }) => {
   const router = useRouter();

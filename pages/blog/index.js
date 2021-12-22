@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { PostCard, PostWidget } from '../../Components'
-import { getPosts } from '../../services'
+import { PostCard, PostWidget } from '../../Components/index.js'
+import { getPosts } from '../../services/index.js'
 
 
 export default function Home({posts}) {
