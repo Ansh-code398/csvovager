@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import { PostDetail, PostWidget, Loader } from '../components/index.js';
+import { PostDetail, PostWidget, Loader } from '/components/index.js';
 import { getPosts, getPostDetails } from '../../services/index.js';
 import { AdjacentPosts } from '../../sections/index.js';
 import Head from 'next/head';

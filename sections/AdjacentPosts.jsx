@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { AdjacentPostCard } from '../pages/components/index.js';
+import { AdjacentPostCard } from '/components/index.js';
 import { getAdjacentPosts } from '../services/index.js';
 
 const AdjacentPosts = ({ createdAt, slug }) => {
