@@ -3,8 +3,8 @@ import Image from 'next/image';
 import moment from 'moment';
 import Link from 'next/link';
 
-import { grpahCMSImageLoader } from '../util';
-import { getSimilarPosts, getRecentPosts } from '../services';
+import { grpahCMSImageLoader } from '../../util.js';
+import { getSimilarPosts, getRecentPosts } from '../../services/index.js';
 
 const PostWidget = ({ categories, slug }) => {
   const [relatedPosts, setRelatedPosts] = useState([]);

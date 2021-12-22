@@ -19,7 +19,7 @@ const PostDetails = ({ post }) => {
         <meta name="og:description" content={`${post.excerpt} by ${post.author}`} />
         <meta name="og:image" content={post.featuredImage.url} />
         <meta name="og:title" content={post.title} />
-        <meta name="og:url" content={`https://localhost:3000/${post.slug}`} />
+        <meta name="og:url" content={`https://csvoyager.vercel.app/${post.slug}`} />
       </Head>
       <div className="container mx-auto px-10 mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
