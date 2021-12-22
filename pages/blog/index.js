@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, PostWidget } from '/components/index.js'
+import { PostCard, PostWidget } from '../../components/index.js'
 import { getPosts } from '../../services/index.js'
 
 
