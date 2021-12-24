@@ -1,29 +1,19 @@
-import React,{useContext, useState, useEffect} from 'react'
+import React from 'react'
 import Link from 'next/link'
-import { getCategories } from '../services/index.js';
 
 const Header = () => {
-    const [categories, setCategories] = useState([]);
   
-    useEffect(() => {
-      getCategories().then((newCategories) => {
-        setCategories(newCategories);
-      });
-    }, []);
     return (
-    <div className="container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-blue-400 py-8">
-        <div className="md:float-left block">
-          <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">CsVoyager</span>
-          </Link>
-        </div>
-        <div className="hidden md:float-left md:contents">
-            <Link href='/blog'><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">Blog</span></Link>
-            <Link href='/'><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">Home</span></Link>
-        </div>
-      </div>
-    </div>
+      <header className='sticky'>
+      <nav className="container flex items-center py-4 mt-4 sm:mt-12">
+        <div className="py-1 w-8 h-8"><img src="/img/logo.png" alt="" /></div>
+        <ul className="flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs flex-wrap">
+          <Link className="cursor-pointer" href='/'>Home</Link>
+          <Link className="cursor-pointer" href='/blog'>Blog</Link>
+          <Link className="cursor-pointer" href='/#subscribe'>Subscribe</Link>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

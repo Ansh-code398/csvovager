@@ -15,6 +15,7 @@ const PostDetails = ({ post }) => {
     <>
       <Head>
         <title>{post.title}</title>
+        <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon"/>
         <meta name="og:description" content={`${post.excerpt} by ${post.author.name}`} />
         <meta name="og:image" content={post.featuredImage.url} />
         <meta name="og:title" content={post.title} />

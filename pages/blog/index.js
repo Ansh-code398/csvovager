@@ -7,8 +7,8 @@ export default function Home({posts}) {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon"/>
+        <title>Blog</title>
       </Head>
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
         <div className='lg:col-span-8 col-span-1'>
