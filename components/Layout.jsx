@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
     <footer className="bg-bookmark-blue py-8">
                 <div className="container flex flex-col md:flex-row items-center">
                     <div className="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-                        <img src="./img/logo.png" className="w-8 h-8" alt="" />
+                        <img src="/img/logo.png" className="w-8 h-8" alt="" />
                         <ul className="flex text-white uppercase gap-12 text-xs kex-wrap">
                             <Link className="cursor-pointer" href='/'>Home</Link>
                             <Link className="cursor-pointer" href='/blog'>Blog</Link>
