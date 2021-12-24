@@ -309,7 +309,7 @@ const index = () => {
                     {/* Card 5 */}
                     <div className="flex flex-col rounded-md shadow-md lg:mb-16">
                         <div className="p-6 flex flex-col items-center">
-                            <img src="./img/team/team-NA.jpeg" alt="" className="rounded-full h-64" />
+                            <img src="./img/team/team-na.jpeg" alt="" className="rounded-full h-64" />
                             <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">Neev Agrawal</h3>
                             <p className="mb-2 text-bookmark-grey font-light">DESIGN + WRITING TEAM</p>
                         </div>
@@ -343,7 +343,7 @@ const index = () => {
                     {/* Card 8 */}
                     <div className="flex flex-col rounded-md shadow-md lg:mb-16">
                         <div className="p-6 flex flex-col items-center">
-                            <img src="./img/team/team-RA.jpg" alt="" className="rounded-full h-64" />
+                            <img src="./img/team/team-ra.jpg" alt="" className="rounded-full h-64" />
                             <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">Riya Agrawal</h3>
                             <p className="mb-2 text-bookmark-grey font-light">WRITING + TECHNICAL TEAM</p>
                         </div>
@@ -353,8 +353,8 @@ const index = () => {
                     {/* Card 9 */}
                     <div className="flex flex-col rounded-md shadow-md lg:mb-16">
                         <div className="p-6 flex flex-col items-center">
-                            <img src="./img/team/team-YY.jpg" alt="" className="rounded-full h-64" />
-                            <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">Yash Yadhav</h3>
+                            <img src="/img/team/Team-YY.jpg" alt="" className="rounded-full h-64" />
+                            <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">Yash Yadav</h3>
                             <p className="mb-2 text-bookmark-grey font-light">WRITING TEAM</p>
                         </div>
                         <hr className="border-b border-bookmark-white" />
