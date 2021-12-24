@@ -64,6 +64,11 @@ a {
 
 * {
   box-sizing: border-box;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 .btn {
   @apply shadow-md py-3 px-6 rounded-md transition duration-300;
